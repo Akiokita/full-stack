@@ -1,6 +1,4 @@
 # full-stack
-Full-Stack
-
 Full-Stack Application.
 
 Technologies
