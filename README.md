@@ -2,7 +2,9 @@
 Full-Stack Application.
 
 Technologies
-Back-end: Java, Hibernate, Spring Boot and Mysql.
+
+Back-end: Java, Hibernate, Spring Boot and Mysql
+
 Front-end: Laravel, Jquery, javascript, bootstrap, HTML, CSS.
 
 IDE 
