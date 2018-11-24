@@ -2,16 +2,58 @@
 Full-Stack
 
 Full-Stack Application.
+
+Technologies
 Back-end: Java, Hibernate, Spring Boot and Mysql.
-Front-end: Laravel, Jquery, javascript, bootstrap, html, css.
+Front-end: Laravel, Jquery, javascript, bootstrap, HTML, CSS.
 
-Laravel Quick - Start
+IDE 
+Netbeans 8.2
 
-# Install Dependencies manager 
+Text Editor
+Visual Studio Code.
+
+#Laravel Quick Start
+
+Install Composer on
+https://getcomposer.org/
+
+Install Dependencies inside the 'front-end' folder.
 composer install
 
-# Go to 'front-end' folder and type
+#Back-end Quick Start
+
+The 'back-end' is maven project. 
+
+Create a new Schema on Mysql named: 'challenge'.
+
+Go to 'application.properties' inside the folder 'src\main\resources\application.properties'and set 'spring.datasource.username' and 'spring.datasource.password' with your database specifications.
+
+#Start
+
+Run the 'back-end' with your IDE of preference.
+
+go to the 'front-end' folder and run 
 php artisan serve
 
-# This command will start a local host server to the front-end application
+URLs
+
+CLIENTES URLs
+
+GET and POST
+/clientes
+
+SERVIÇOS URLs
+
+GET and POST 
+/servicos
+
+
+SERVIÇOS COMPRADOS URLs
+GET and POST
+/clientes/{clienteId}/servicos-comprados
+
+#Issues
+The Front-end page '/comprar-servicos' might not work in some enviroments, but this funcionality available by the URL /clientes/{clienteId}/servicos-comprados.
+
 
