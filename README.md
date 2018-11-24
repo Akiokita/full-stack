@@ -31,7 +31,7 @@ Go to 'application.properties' inside the folder 'src\main\resources\application
 
 Run the 'back-end' with your IDE of preference.
 
-go to the 'front-end' folder and run 
+Go to the 'front-end' folder and run 
 php artisan serve
 
 URLs
@@ -45,7 +45,6 @@ SERVIÇOS URLs
 
 GET and POST 
 /servicos
-
 
 SERVIÇOS COMPRADOS URLs
 GET and POST
