@@ -33,7 +33,8 @@ Go to 'application.properties' inside the folder 'src\main\resources\application
 
 Run the 'back-end' with your IDE of preference.
 
-Go to the 'front-end' folder and run 
+Go to the 'front-end' folder and run the command:
+
 php artisan serve
 
 URLs
