@@ -51,7 +51,5 @@ SERVIÇOS COMPRADOS URLs
 GET and POST
 /clientes/{clienteId}/servicos-comprados
 
-# Issues
-The Front-end page '/comprar-servicos' might not work in some enviroments, but this funcionality available by the URL /clientes/{clienteId}/servicos-comprados.
 
 
