@@ -18,7 +18,7 @@ Visual Studio Code.
 Install Composer on
 https://getcomposer.org/
 
-Go to the 'front-end' folder and run the command: 'composer install
+Go to the 'front-end' folder and run the command: 'composer install'
 
 # Back-end Quick Start
 
