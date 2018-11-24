@@ -28,6 +28,8 @@ Create a new Schema on Mysql named: 'challenge'.
 
 Go to 'application.properties' inside the folder 'src\main\resources\application.properties'and set 'spring.datasource.username' and 'spring.datasource.password' with your database specifications.
 
+All the front-end pages are in the 'front-end/resources/views' folder.
+
 # Start
 
 Run the 'back-end' with your IDE of preference.
