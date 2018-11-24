@@ -15,7 +15,7 @@ Visual Studio Code.
 
 # Laravel Quick Start
 
-Install Composer on
+Install Composer:
 https://getcomposer.org/
 
 Go to the 'front-end' folder and run the command: 'composer install'
