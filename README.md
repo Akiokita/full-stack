@@ -13,7 +13,7 @@ Netbeans 8.2
 Text Editor
 Visual Studio Code.
 
-#Laravel Quick Start
+# Laravel Quick Start
 
 Install Composer on
 https://getcomposer.org/
@@ -21,7 +21,7 @@ https://getcomposer.org/
 Install Dependencies inside the 'front-end' folder.
 composer install
 
-#Back-end Quick Start
+# Back-end Quick Start
 
 The 'back-end' is maven project. 
 
@@ -29,7 +29,7 @@ Create a new Schema on Mysql named: 'challenge'.
 
 Go to 'application.properties' inside the folder 'src\main\resources\application.properties'and set 'spring.datasource.username' and 'spring.datasource.password' with your database specifications.
 
-#Start
+# Start
 
 Run the 'back-end' with your IDE of preference.
 
@@ -53,7 +53,7 @@ SERVIÇOS COMPRADOS URLs
 GET and POST
 /clientes/{clienteId}/servicos-comprados
 
-#Issues
+# Issues
 The Front-end page '/comprar-servicos' might not work in some enviroments, but this funcionality available by the URL /clientes/{clienteId}/servicos-comprados.
 
 
