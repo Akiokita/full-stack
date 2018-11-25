@@ -22,7 +22,7 @@ Go to the 'front-end' folder and run the command: 'composer install'
 
 # Back-end Quick Start
 
-The 'back-end' is maven project. 
+The 'back-end' is a maven project. 
 
 Create a new Schema on Mysql named: 'challenge'.
 
