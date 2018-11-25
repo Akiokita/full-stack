@@ -40,17 +40,20 @@ URLs
 
 CLIENTES URLs
 
-GET and POST
+GET and POST:
+
 /clientes
 
 SERVIÇOS URLs
 
-GET and POST 
+GET and POST:
+
 /servicos
 
 SERVIÇOS COMPRADOS URLs
 
-GET and POST
+GET and POST:
+
 /clientes/{clienteId}/servicos-comprados
 
 
