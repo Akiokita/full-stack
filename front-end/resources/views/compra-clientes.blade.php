@@ -50,7 +50,7 @@
                                     <h4>Tipo do Cliente:</h4><br>
                                     <h5>${compra.tipo}</h5><br>
                                     <h4>Preço para Cliente Normal:</h4><br>
-                                    <h5>R$: ${compra.preco}</h5><br>
+                                    <h5>R$: ${compra.preco_pago}</h5><br>
                                     <h4>Preço para Cliente Prata:</h4><br>
                                     <h5>R$: ${compra.preco_prata}</h5><br>
                                     <h4>Preço para Cliente Ouro:</h4><br>
