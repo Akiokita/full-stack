@@ -48,11 +48,11 @@ All the front-end pages are in the `front-end/resources/views` folder.
 
 **CLIENTES URLs**
 
-**GET and POST:**
+**GET and POST**
 
-`/clientes`
+**`/clientes`**
 
-json POST example:
+json POST example
 
 {
   "nome": "Dalton"
@@ -60,9 +60,9 @@ json POST example:
 
 **SERVIÇOS URLs**
 
-**GET and POST:**
+**GET and POST**
 
-`/servicos`
+**`/servicos`**
 
 json POST example:
 
@@ -79,7 +79,7 @@ json POST example:
 
 **GET and POST:**
 
-`/clientes/{clienteId}/servicos-comprados`
+**`/clientes/{clienteId}/servicos-comprados`**
 
 json POST example:
 
