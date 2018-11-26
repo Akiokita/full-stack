@@ -9,16 +9,16 @@ Front-end: Laravel, Jquery, javascript, bootstrap, HTML, CSS.
 
 **IDE** 
 
-Netbeans 8.2
+`Netbeans 8.2`
 
 **Text Editor**
 
-Visual Studio Code.
+`Visual Studio Code`
 
 
 # Laravel Quick Start
 
-Install Composer:
+Install Composer
 https://getcomposer.org/
 
 Go to the 'front-end' folder and run the command
@@ -36,7 +36,7 @@ Go to 'application.properties' inside the folder `src\main\resources\application
 
 # Start
 
-Run the 'back-end' with your IDE of preference.
+Run the 'back-end' with your java IDE of preference.
 
 Go to the 'front-end' folder and run the command
 
@@ -46,17 +46,13 @@ Copy the number initiated by the command and paste in your browser.
 
 All the front-end pages are in the `front-end/resources/views` folder.
 
+# URLs
+
 **CLIENTES URLs**
 
 **GET and POST**
 
 **`/clientes`**
-
-json POST example
-
-{
-  "nome": "Dalton"
-  }
 
 **SERVIÇOS URLs**
 
@@ -64,7 +60,21 @@ json POST example
 
 **`/servicos`**
 
-json POST example:
+**SERVIÇOS COMPRADOS URLs**
+
+**GET and POST:**
+
+**`/clientes/{clienteId}/servicos-comprados`**
+
+#JSON POSTS
+
+**Cliente json POST example**
+
+{
+  "nome": "Dalton"
+}
+
+**Serviços json POST example**
 
 {
   "nome": "Dalton",
@@ -73,13 +83,9 @@ json POST example:
   "preco_ouro": ""
   }
 
-**Leave the fields 'preco_prata' and 'preco_ouro' blank because the API will fill in these fields automatically based on 'preco'.**
+***Leave the fields 'preco_prata' and 'preco_ouro' blank because the API will fill in these fields automatically based on 'preco'.**
 
-**SERVIÇOS COMPRADOS URLs**
-
-**GET and POST:**
-
-**`/clientes/{clienteId}/servicos-comprados`**
+**Serviços Comprados json POST example**
 
 json POST example:
 
