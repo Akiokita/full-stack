@@ -21,7 +21,7 @@ Front-end: Laravel, Jquery, javascript, bootstrap, HTML, CSS.
 Install Composer
 https://getcomposer.org/
 
-Go to the 'front-end' folder and run the command
+Go to the `front-end` folder and run the command
 
 `composer install`
 
