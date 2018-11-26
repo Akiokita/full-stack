@@ -8,10 +8,13 @@ Back-end: Java, Hibernate, Spring Boot and Mysql
 Front-end: Laravel, Jquery, javascript, bootstrap, HTML, CSS.
 
 **IDE** 
+
 Netbeans 8.2
 
 **Text Editor**
+
 Visual Studio Code.
+
 
 # Laravel Quick Start
 
@@ -19,6 +22,7 @@ Install Composer:
 https://getcomposer.org/
 
 Go to the 'front-end' folder and run the command: 'composer install'
+
 
 # Back-end Quick Start
 
@@ -30,11 +34,14 @@ Go to 'application.properties' inside the folder 'src\main\resources\application
 
 All the front-end pages are in the 'front-end/resources/views' folder.
 
+
 # Start
 
 Run the 'back-end' with your IDE of preference.
 
-Go to the 'front-end' folder and run the command: 'php artisan serve'
+Go to the 'front-end' folder and run the command: 'php artisan serve'.
+
+Copy the number initiated by the command and paste in your browser.
 
 
 **CLIENTES URLs**
@@ -81,8 +88,8 @@ json POST example:
 	"data_fim": "20/11/2018",
 	"tipo": "normal",
 	"preco_prata": "",
-  "preco_ouro": "",
-  "pagamento_normal_adiantado":"",
+  	"preco_ouro": "",
+  	"pagamento_normal_adiantado":"",
 	"pagamento_prata_adiantado":"",
 	"pagamento_ouro_adiantado":""
 }
