@@ -32,8 +32,6 @@ Create a new Schema on Mysql named: 'challenge'.
 
 Go to 'application.properties' inside the folder 'src\main\resources\application.properties'and set 'spring.datasource.username' and 'spring.datasource.password' with your database specifications.
 
-All the front-end pages are in the 'front-end/resources/views' folder.
-
 
 # Start
 
@@ -43,6 +41,7 @@ Go to the 'front-end' folder and run the command: 'php artisan serve'.
 
 Copy the number initiated by the command and paste in your browser.
 
+All the front-end pages are in the 'front-end/resources/views' folder.
 
 **CLIENTES URLs**
 
