@@ -102,7 +102,7 @@ json POST example:
 	"pagamento_ouro_adiantado":""
 }
 
-**You can make this post only if the 'cliente_id' is already inserted in the database.**
+***You can make this post only if the 'cliente_id' is already inserted in the database.**
 
 # Issues
 
