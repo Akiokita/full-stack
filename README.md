@@ -89,5 +89,8 @@ json POST example:
 
 **You can make this post only if the 'cliente_id' is already inserted in the database.**
 
+# Issues
 
+If you want to use 'postman' to make requests to the API, you need to put @RequestBody in the call of all methods of the classes inside the package com.example.lecomchallenge.controller.
 
+if you want the front end to consume the api, you need to take out the @RequestBody in the call of all methods of the classes inside the package com.example.lecomchallenge.controller.
