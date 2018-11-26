@@ -20,11 +20,6 @@ public class Cliente extends ModeloGeral {
     @NotNull
     private String nome;
 
-    //O cliente pode ser dos tipos: Normal, Prata ou Ouro.
-    @Lob
-    @NotNull
-    private String tipo;
-
     /**
      * @return the id
      */
@@ -53,18 +48,5 @@ public class Cliente extends ModeloGeral {
         this.nome = nome;
     }
 
-    /**
-     * @return the type
-     */
-    public String getTipo() {
-        return tipo;
-    }
-
-    /**
-     * @param type the type to set
-     */
-    public void setTipo(String tipo) {
-        this.tipo = tipo;
-    }
-
+   
 }
