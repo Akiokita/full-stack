@@ -21,8 +21,9 @@ Visual Studio Code.
 Install Composer:
 https://getcomposer.org/
 
-Go to the 'front-end' folder and run the command: `composer install`
+Go to the 'front-end' folder and run the command
 
+`composer install`
 
 # Back-end Quick Start
 
@@ -37,7 +38,9 @@ Go to 'application.properties' inside the folder `src\main\resources\application
 
 Run the 'back-end' with your IDE of preference.
 
-Go to the 'front-end' folder and run the command: `php artisan serve`.
+Go to the 'front-end' folder and run the command
+
+`php artisan serve`
 
 Copy the number initiated by the command and paste in your browser.
 
