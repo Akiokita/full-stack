@@ -50,23 +50,23 @@ All the front-end pages are in the `front-end/resources/views` folder.
 
 **CLIENTES URLs**
 
-**GET and POST**
+GET and POST
 
-**`/clientes`**
+`/clientes`
 
 **SERVIÇOS URLs**
 
-**GET and POST**
+GET and POST
 
-**`/servicos`**
+`/servicos`
 
 **SERVIÇOS COMPRADOS URLs**
 
-**GET and POST:**
+GET and POST:
 
-**`/clientes/{clienteId}/servicos-comprados`**
+`/clientes/{clienteId}/servicos-comprados`
 
-#JSON POSTS
+# JSON POSTS
 
 **Cliente json POST example**
 
