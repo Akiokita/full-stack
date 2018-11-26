@@ -70,7 +70,7 @@
                     url: 'http://localhost:8080/clientes/'+ id_cliente +'/servicos-comprados',
                     data: {
                         nome_servico: array[0],
-                        preco: array[1],
+                        preco_pago: array[1],
                         data_inicio: inicio,
                         data_fim: fim,
                         tipo: tipo,
