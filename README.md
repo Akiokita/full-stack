@@ -1,7 +1,7 @@
 # full-stack
 Full-Stack Application.
 
-**Technologies
+**Technologies**
 
 Back-end: Java, Hibernate, Spring Boot and Mysql
 
