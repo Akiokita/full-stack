@@ -46,10 +46,8 @@ Go to the 'front-end' folder and run the command: 'php artisan serve'
 json POST example:
 
 {
-
   nome: "Dalton"
-  
-}
+  }
 
 **SERVIÇOS URLs**
 
@@ -60,16 +58,11 @@ json POST example:
 json POST example:
 
 {
-
   nome: "Dalton",
-  
   preco: "3000",
-  
   preco_prata: "",
-  
   preco_ouro: ""
-  
-}
+  }
 
 **Leave the fields 'preco_prata' and 'preco_ouro' blank because the API will fill in these fields automatically based on 'preco'.**
 
@@ -82,22 +75,15 @@ json POST example:
 json POST example:
 
 {
-
-  nome_servico: "Professional Dashboard",
-  
-  data_inicio: "20/12/2018",
-  
-  data_fim: "01/01/2019",
-  
-  dias_restantes: "",
-  
-  preco_pago: "30000",
-  
+  nome_servico: "Professional Dashboard",  
+  data_inicio: "20/12/2018",  
+  data_fim: "01/01/2019",  
+  dias_restantes: "",  
+  preco_pago: "30000",  
   cliente_id: '1'
-  
-}
+  }
 
-**You can make a purchase only if the 'cliente_id' is already inserted in the database.**
+**You can make this post only if the 'cliente_id' is already inserted in the database.**
 
 
 
