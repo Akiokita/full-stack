@@ -21,7 +21,7 @@ Visual Studio Code.
 Install Composer:
 https://getcomposer.org/
 
-Go to the 'front-end' folder and run the command: 'composer install'
+Go to the 'front-end' folder and run the command: `composer install`
 
 
 # Back-end Quick Start
@@ -30,24 +30,24 @@ The 'back-end' is a maven project.
 
 Create a new Schema on Mysql named: 'challenge'.
 
-Go to 'application.properties' inside the folder 'src\main\resources\application.properties'and set 'spring.datasource.username' and 'spring.datasource.password' with your database specifications.
+Go to 'application.properties' inside the folder `src\main\resources\application.properties` and set `spring.datasource.username` and `spring.datasource.password` with your database specifications.
 
 
 # Start
 
 Run the 'back-end' with your IDE of preference.
 
-Go to the 'front-end' folder and run the command: 'php artisan serve'.
+Go to the 'front-end' folder and run the command: `php artisan serve`.
 
 Copy the number initiated by the command and paste in your browser.
 
-All the front-end pages are in the 'front-end/resources/views' folder.
+All the front-end pages are in the `front-end/resources/views` folder.
 
 **CLIENTES URLs**
 
 **GET and POST:**
 
-/clientes
+`/clientes`
 
 json POST example:
 
@@ -59,7 +59,7 @@ json POST example:
 
 **GET and POST:**
 
-/servicos
+`/servicos`
 
 json POST example:
 
@@ -76,7 +76,7 @@ json POST example:
 
 **GET and POST:**
 
-/clientes/{clienteId}/servicos-comprados
+`/clientes/{clienteId}/servicos-comprados`
 
 json POST example:
 
