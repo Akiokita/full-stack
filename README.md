@@ -36,8 +36,7 @@ Run the 'back-end' with your IDE of preference.
 
 Go to the 'front-end' folder and run the command: 'php artisan serve'
 
-URLs
-
+*Negrito*
 CLIENTES URLs
 
 GET and POST:
